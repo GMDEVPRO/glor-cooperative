@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+
+    
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="lang/idiomas.js"></script>
+    <script type="text/javascript" src="js/texto.js"></script>
+    <script type="text/javascript" src="js/textoController.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+    <title>GL'OR COOPERAT</title>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav__header">
+                <div class="nav__logo">
+                    <a href="#">GL'OR COOPERAT</a>
+                </div>
+                <div class="nav__menu__btn" id="menu-btn">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+            <ul class="nav__links" id="nav-links">
+                <li><a href="#home" class="lng__home">Home</a></li>
+                <li><a href="#about" class="lng__about">About</a></li>
+                <li><a href="#service" class="lng__service">Service</a></li>
+                <li><a href="#ride" class="lng__rige">Ride</a></li>
+                <li><a href="#contact" class="lng__contact">Contact</a></li>
+                 
+                <li class="nav__links__btn">
+                  <button class="btn">
+                    <select name="btn__icons" id="tselecaom">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="en-us" data-icon="" class="left">Português</option>
+                        <option value="fr-fr" data-icon="#" class="left">English</option>
+                        <option value="pt-br" data-icon="#" class="left">Français</option>
+                       </select>
+                  </button>
+                </li>
+         
+            </ul>
+            <div class="nav__btns">
+                <button>
+                    <select name="btn" id="tselecao">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="en-us">Ingles</option>
+                    <option value="fr-fr">Français</option>
+                    <option value="pt-br">Portugues</option>
+                    </select>
+                </button>
+            </div>
+        </nav>
+        <di class="section__container header__container" id="home">
+            <div class="header__image">
+                <img src="assets/fotos2.png" alt="header">
+            </div>
+            <div class="header__content">
+                <h1 class="lng__title__a">Precious Stones Sellers Cooperative</h1>
+                <p class="lng__title__b">
+                    Our mission is to support our members by providing a collaborative platform that encourages knowledge sharing, 
+                    access to high-quality resources, and the collective promotion of their products
+                </p>
+               
+            </div>
+        </di>
+    </header>
+    
+    <section class="section__container about__container" id="about">
+        <p class="section__subheader lng__title__c">About Us!</p>
+        <h2 class="section__header lng__title__c1">Our History And Mission</h2>
+        <div class="steps__grid">
+            <div class="steps__card">
+                <span><i class="ri-global-line"></i></i></span>
+                <h4 class="lng__title__c2">Connecting with Buyers</h4>
+                <p class="lng__title__c3">
+                    Brings together artisans, gemologists, and specialized merchants from the provinces 
+                    of Goma/Gisenyi in the north of Lake Kivu, and Bukavu/Cyangugu in the south.
+                </p>
+            </div>
+          
+            <div class="steps__card">
+                <span><i class="ri-ancient-gate-fill"></i></span>
+                <h4 class="lng__title__c4">Our History</h4>
+                <p class="lng__title__c5"> 
+                    GL'OR COOPERAT is a dynamic association of professionals passionate about the world of precious stones. Founded in 2018.
+                    Congo/Rwanda.
+                    
+                </p>
+            </div>
+            <div class="steps__card">
+                <span><i class="ri-p2p-line"></i></span>
+                <h4 class="lgn__title__c6">Collaborative Platform</h4>
+                <p class="lgn__title__c7">
+                    One of the pillars of our cooperative is to facilitate direct connections between precious stone sellers and buyers.
+                    
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__container service__container" id="service">
+        <div class="service__image">
+            <img src="assets/img23.png" alt="service">
+        </div>
+        <div class="service__content">
+            <p class="section__subheader lgn__title__c8">BEST SERVICES</p>
+            <h2 class="section__header lgn__title__c99">
+                Our Services:
+            </h2>
+            <ul class="service__list">
+                <li>
+                    <span><i class="ri-shopping-cart-fill"></i></i></span>
+                <h4 class="lgn__title__c9">Sale of Authentic Precious Stones</h4>
+                <p class="lgn__title__c10">
+                    The cooperative offers a wide range of precious stones, including diamonds, sapphires, emeralds, rubies, and various semi-precious stones. 
+                    Each stone is certified for its authenticity and quality.
+                </p>
+                </li>
+                <li>
+                    <span><i class="ri-customer-service-2-fill"></i></span>
+                <h4 class="lgn__title__c11">Advice and Expertise</h4>
+                <p class="lgn__title__c12">
+                    Our expert gemologists are available to provide personalized advice and detailed information on the characteristics and value of precious stones. 
+                    They help clients make informed choices based on their needs and preferences.
+                </p>
+                </li>
+                <li>
+                    <span><i class="ri-service-fill"></i></i></span>
+                <h4 class="lgn__title__c13">Evaluation and Certification</h4>
+                <p class="lgn__title__c14">
+                    We offer evaluation services to determine the value of precious stones. Each evaluation is accompanied 
+                    by a certificate of authenticity issued by independent and recognized professionals.
+                </p>
+                </li>
+            </ul>
+
+        </div>
+    </section>
+
+    <section class="section__container esperience__container" id="Ride">
+        <p class="section__subheader lgn__title__c15">CUSTUMER EXPERIENCE</p>
+        <h2 class="section__header lgn__title__c16">
+            we are ensuring best custumer experience
+        </h2>
+        <div class="experience__content">
+            <div class="experience__card">
+                <span><i class="ri-customer-service-2-fill"></i></span>
+                <h4 class="lgn__title__c17">Service quality and attentively</h4>
+            </div>
+            <div class="experience__card">
+                <span><i class="ri-price-tag-3-fill"></i></i></span>
+                <h4 class="lgn__title__c18">Competitive pricing</h4>
+            </div>
+            <div class="experience__card">
+                <span><i class="ri-p2p-fill"></i></i></span>
+                <h4 class="lgn__title__c19">Personalized Solutions</h4>
+            </div>
+            <div class="experience__card">
+                <span><i class="ri-customer-service-2-fill"></i></span>
+                <h4 class="lgn__title__c20">Empathy and Support</h4>
+            </div>
+            <div class="experience__card">
+                <span><i class="ri-24-hours-line"></i></i></span>
+                <h4 class="lgn__title__c21">Proactive Engagement</h4>
+            </div>
+            
+            <div class="experience__card">
+                <span><i class="ri-shake-hands-fill"></i></i></span>
+                <h4 class="lgn__title__c22">Transparency</h4>
+            </div>
+            <img src="assets/imog (2).png" alt="experience">
+        </div>
+    </section>
+
+    <section class="section__container download__container" id="contact">
+        <div class="download__grid">
+            <div class="download__content">
+                <h2 class="section__header" class="section__header" class="lgn__title__23">Send us a message with your catalog request.</h2>
+                <p class="lgn__title__24">
+                    Our team will respond promptly and send you a digital version 
+                    of the catalog along with additional information about our services. 
+                </p>
+                <div class="download__links">
+                    <a href="#">
+                        <img src="assets/facebook-messenger-logo.png" alt="app store" />
+                    </a>
+                    <a href="https://wa.me/243852808198">
+                        <img src="assets/whatsapp.png" alt="play" />
+                    </a>
+                </div>
+                 
+            </div>
+            <div class="download__image">
+                <img src="assets/IMG.CA.png" alt="download" />
+            </div> 
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="section__container footer__container">
+            <div class="footer__col">
+                <h4>Our Products</h4>
+                <ul class="footer__links">
+                    <li><a href="#"></a>Packages</li>
+                    <li><a href="#"></a>Features</li>
+                    <li><a href="#">Priceline</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4>Resources</h4>
+                <ul class="footer__links">
+                    <li><a href="#"></a>Help Center</li>
+                    <li><a href="#"></a>Guides</li>
+                    <li><a href="#"></a>Partner Networks</li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4>Resources</h4>
+                <ul class="footer__links">
+                    <li><a href="#"></a>Career</li>
+                    <li><a href="#"></a>Repair Shop</li>
+                    <li><a href="#"></a>Hire Companies</li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4>Resources</h4>
+                <ul class="footer__links">
+                    <li><a href="#"></a>Career</li>
+                    <li><a href="#"></a>Repair Shop</li>
+                    <li><a href="#"></a>Hire Companies</li>
+                </ul>
+            </div>
+        </div>
+      
+        <div class="section__container footer__bar">
+            <h4>GL'OR COOPERATIVE</h4>
+            <p>Copyrigth 2023 web Gl'or-cooperative. All rigthts reservaded.</p>
+            <ul class="footer__socials">
+               <li>
+                <a href="#"><i class="ri-facebook-fill"></i></a>
+               </li>
+               <li>
+                <a href="#"><i class="ri-whatsapp-fill"></i></a>
+               </li>
+               <li>
+                <a href="#"><i class="ri-google-fill"></i></i></a>
+               </li>
+            </ul>
+        </div>
+    </footer>
+
+<!---Button Watsapp-->
+
+
+   <a 
+   href="https://wa.me/243852808198"
+   class="btn-whatsapp"
+   target="_blank" >
+   <img src="assets/whatssapp - Copia.svg" alt="botao whatssapp" />
+       <span class="tooltip-text" class="lgn__title__c25">Ask us your question</span>
+   </a>
+
+   
+   
+
+    
+
+
+
+
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js" defer></script>
+</body>
+</html>
